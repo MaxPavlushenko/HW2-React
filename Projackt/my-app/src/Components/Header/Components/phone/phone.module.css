@@ -1,0 +1,10 @@
+.phone {
+width: 30px;
+height: 30px;
+background-color: #618967;
+border-radius: 50%;
+background-image: url(../../../../assets/images/header/Calling.svg);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+margin-left: 100px;
+}

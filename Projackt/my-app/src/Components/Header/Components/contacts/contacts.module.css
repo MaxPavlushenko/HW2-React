@@ -1,0 +1,17 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+}
+
+.contacts__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #CFCFCF;
+}
+.contacts__phone{
+    color: #FFFF;
+}

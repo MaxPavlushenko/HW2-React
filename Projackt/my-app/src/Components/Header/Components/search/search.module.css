@@ -1,0 +1,24 @@
+.search {
+    width: 555px;
+    height: 52px;
+    background: #504B4A;
+    border-radius: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #CFCFCF;
+    background: url(../../../../assets/images/header/Search.svg) ;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    padding-left: 60px;  
+    margin-left: 100px; 
+}
+/*.search::placeholder{
+    content: url(../../../../assets/images/header/Location.svg);
+}
+.search::placeholder::after{
+content: ;
+}*/
+
