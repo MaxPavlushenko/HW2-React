@@ -1,0 +1,26 @@
+.footerNav {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.footerNav a {
+    color: #CFCFCF;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+    
+    
+}
+.footerNav a:focus{
+    color: #FFFFFF;
+    border-bottom: 2px solid #618967;
+}

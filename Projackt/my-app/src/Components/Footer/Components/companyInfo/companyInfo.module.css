@@ -1,0 +1,19 @@
+.companyInfo {
+    margin-top: 30px;
+    width: 189px;
+    height: 28px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #CFCFCF;
+}
+
+.companyInfo__logo {
+    background-image: url(../../../../assets/images/header/logos.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 25px;
+}

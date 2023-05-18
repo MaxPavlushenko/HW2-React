@@ -1,0 +1,10 @@
+.deliveryTitle{
+    color: #bab3b3;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    background-color: #dacecb;
+    align-items: center;
+}
