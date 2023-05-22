@@ -3,6 +3,31 @@
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    background-color: #618967;
+    background-color: #403C3B;
     align-items: center;
+}
+
+.basket {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    padding-left: 330px;
+    min-height: 74px;
+    justify-content: space-between;
+
+}
+
+.basketReturn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.basketCategory {
+    font-family: Gilroy;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #fff;
+    border-left: 2px solid #618967;
+    padding-left: 19px;
 }

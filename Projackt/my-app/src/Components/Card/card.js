@@ -28,10 +28,27 @@ export const Card = () => {
             <div className={style.cards}>
                 {menuCards.map((menuCards) => (
                     <div key={menuCards.id} className={style.card__element}>
-                        <img className={style.card__img}
-                            src={menuCards.images.src}
-                            alt={menuCards.images.alt}></img>
                         <div className={style.card__container}>
+                            <img className={style.card__img}
+                                src={menuCards.images.src}
+                                alt={menuCards.images.alt}></img>
+                            <div className={style.titleCard}>
+                                <h3 className={style.card__elem}>{menuCards.title}</h3>
+                                <span className={style.card__weight}>
+                                    Вес : {menuCards.weight} г
+                                </span>
+                                <p className={style.card__text}>
+                                    {menuCards.text}
+                                </p>
+                                <div className={style.card__box}>
+                                    <CartCount menuCardsPrice={menuCards.price} />
+                                </div>
+                            </div>
+                        </div>
+                        <div className={style.card__container}>
+                            <img className={style.card__img}
+                                src={menuCards.images.src}
+                                alt={menuCards.images.alt}></img>
                             <div className={style.titleCard}>
                                 <h3 className={style.card__elem}>{menuCards.title}</h3>
                                 <span className={style.card__weight}>

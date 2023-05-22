@@ -5,21 +5,26 @@ import cart from '../../../assets/images/main/cart.svg';
 
 
 
-export const CartCount = ({menuCardsPrice}) => {
-    const [count, setCount] = useState(1)
+export const CartCount = ({ menuCardsPrice }) => {
+
+    const [state, setState] = useState(1)
+
     const [price, setPrice] = useState(menuCardsPrice)
+
     const [isShowCount, setIsShowCount] = useState(false)
 
     const pencilCountAdd = () => {
-        setCount(count + 1)
+        setState(state + 1)
         setPrice(price + menuCardsPrice)
     }
 
     const pencilCountSub = () => {
-        if (count === 1) {
+
+        if (state === 1) {
             setIsShowCount(!isShowCount)
+
         } else {
-            setCount(count - 1)
+            setState(state - 1)
             setPrice(price - menuCardsPrice)
         }
     }
@@ -32,11 +37,11 @@ export const CartCount = ({menuCardsPrice}) => {
         return (
 
             <>
-                <span className={style.showcase}>{count}</span>
+                <span className={style.showcase}>{state}</span>
                 <button className={style.buttonCount} onClick={pencilCountSub}>
                     -
                 </button>
-                < span className={style.price}>{menuCardsPrice} &#x20bd;</span>
+                < span className={style.price}>{price} &#x20bd;</span>
                 <button className={style.buttonCount} onClick={pencilCountAdd}>
                     +
                 </button>
@@ -49,9 +54,9 @@ export const CartCount = ({menuCardsPrice}) => {
     }
     return (
         <>
-            <span className={style.price}>{menuCardsPrice} &#x20bd;</span>
+            <span className={style.price}>{price} &#x20bd;</span>
             <button className={style.buttonAddCart} onClick={pencilCartClick}>В корзину
-                <img src ={cart}></img>
+                <img src={cart} alt="cart"></img>
             </button>
 
         </>
