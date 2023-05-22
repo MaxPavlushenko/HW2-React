@@ -9,7 +9,7 @@ export const menuCards = [
         title:'Ягненок',
         text:'Фаршированный гречневой кашей,  курагой, апельсином и зеленым яблоком',
         weight: '225 ',
-        price: '625 ',
+        price: 625 ,
         images:{
             src: lamb,
             alt:"lamb",
@@ -22,7 +22,7 @@ export const menuCards = [
     title:'Индейка',
     text:'Фаршированный гречневой кашей,  курагой, апельсином и зеленым яблоком',
     weight: '225 ',
-    price: '625 ',
+    price: 450 ,
     images:{
         src: turkey,
         alt: "turkey",
@@ -35,7 +35,7 @@ export const menuCards = [
     title:'Рыба',
     text:'Фаршированный гречневой кашей,  курагой, апельсином и зеленым яблоком',
     weight: '225 ',
-    price: '625 ',
+    price: 7900 ,
     images:{
     src: fish,
     alt: "fish",
@@ -48,7 +48,7 @@ export const menuCards = [
     title:'Рулеты',
     text:'Фаршированный гречневой кашей,  курагой, апельсином и зеленым яблоком',
     weight: '225 ',
-    price: '625 ',
+    price: 3230 ,
     images:{
         src: rolls,
         alt: "rolls",

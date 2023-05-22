@@ -33,33 +33,36 @@ export const CartCount = ({ menuCardsPrice }) => {
         setIsShowCount(!isShowCount)
     }
 
-    if (isShowCount) {
+    if (!isShowCount) {
+
+
         return (
-
             <>
-                <span className={style.showcase}>{state}</span>
-                <button className={style.buttonCount} onClick={pencilCountSub}>
-                    -
+                <span className={style.price}>{price} &#x20bd;</span>
+                <button className={style.buttonAddCart} onClick={pencilCartClick}>В корзину
+                    <img src={cart} alt="cart"></img>
                 </button>
-                < span className={style.price}>{price} &#x20bd;</span>
-                <button className={style.buttonCount} onClick={pencilCountAdd}>
-                    +
-                </button>
-
 
             </>
-
-
         )
     }
     return (
         <>
-            <span className={style.price}>{price} &#x20bd;</span>
-            <button className={style.buttonAddCart} onClick={pencilCartClick}>В корзину
-                <img src={cart} alt="cart"></img>
+            <span className={style.showcase}>{state}</span>
+            <button className={style.buttonCount} onClick={pencilCountSub}>
+                -
+            </button>
+            < span className={style.price}>{price} &#x20bd;</span>
+            <button className={style.buttonCount} onClick={pencilCountAdd}>
+                +
             </button>
 
-        </>
-    )
 
+        </>
+
+
+    )
 }
+
+
+
