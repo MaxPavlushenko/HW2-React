@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     max-width: 1440px;
-    height: 78px;
+    min-height: 78px;
     background-color: #403C3B;
     border-bottom: 1px solid #FFFFFF;
 }
@@ -19,4 +19,15 @@
 .nav a:focus{
     color: #FFFFFF;
     border-bottom: 2px solid #618967;
+}
+@media(max-width:800px){
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:580px){
+    .nav{
+        display: none;
+    }
 }

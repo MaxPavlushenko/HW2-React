@@ -2,6 +2,7 @@ import style from '../Basket/Basket.module.css'
 import { Link } from 'react-router-dom'
 
 
+
 export const Basket = () => {
     return (
         <div className={style.container}>
@@ -12,7 +13,10 @@ export const Basket = () => {
 
                 <span className={style.basketCategory}>КОРЗИНА</span>
             </div >
-
+            <div className={style.basketOrder}>
+                <button className={style.buttonBasket}>Оформить заказ</button>
+            </div>
+    
         </div>
     )
 }

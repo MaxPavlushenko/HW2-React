@@ -1,5 +1,5 @@
 
-import style from '../../Components/Banner/Banner.module.css'
+import style from './Banner.module.css'
 
 
 export const Banner = () => {

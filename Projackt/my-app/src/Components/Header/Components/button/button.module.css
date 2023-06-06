@@ -1,27 +1,39 @@
-.button{
+.button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 149px;
-    height: 52px;
+    max-width: 120px;
+    min-height: 20px;
     background-color: #618967;
     border-radius: 15%;
     font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
-margin-right: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 10px;
 
 }
-.button__counter{
-width: 20px;
-height: 20px;
-border-radius: 50%;
-background-color: #FFFF;
+
+.button__counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFFF;
 }
-.button__border{
+
+.button__border {
     height: 20px;
     border-right: 1px solid white;
+}
+@media(max-width:660px){
+    .button{
+       margin-left: 280px;
+    }
+}
+@media(max-width:620px){
+    .button{
+        margin-left: 150px;
+    }
 }

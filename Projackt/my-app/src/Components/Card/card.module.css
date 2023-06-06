@@ -1,9 +1,6 @@
 .card {
     padding-left: 10px;
-    max-width: 260px;
-
     display: flex;
-    justify-content: center;
     flex-direction: column;
     color: #fff;
 }
@@ -16,9 +13,15 @@
 }
 
 .cards {
-    width: 1440px;
+    max-width: 1440px;
+    min-height: 1000px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+
+
 }
 
 .card__text {
@@ -29,6 +32,7 @@
     font-size: 13px;
     line-height: 17px;
     color: #CFCFCF;
+    margin-left: 10px;
 
 }
 
@@ -39,7 +43,8 @@
     font-size: 22px;
     line-height: 27px;
     color: #FFFFFF;
-    position: relative;
+    margin-left: 10px;
+
 }
 
 .card__box {
@@ -47,13 +52,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.card__container {
-    position: relative;
-    margin-bottom: 30px;
 }
 
 .titleCard {
     background-color: #494544;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card__weight {
+    width: 80px;
+    position: absolute;
+    color: #fff;
+    margin-left: 240px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.card__element {
+    max-width: 1440px;
+
 }

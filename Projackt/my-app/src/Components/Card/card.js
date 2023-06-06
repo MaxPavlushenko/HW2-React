@@ -22,8 +22,10 @@ export const Card = () => {
 
 
     return (
-        <div className={style.card}>
-            <h2 className={style.card__title}>{title}</h2>
+        <>
+            <div className={style.card}>
+                <h2 className={style.card__title}>{title}</h2>
+            </div>
 
             <div className={style.cards}>
                 {menuCards.map((menuCards) => (
@@ -65,7 +67,8 @@ export const Card = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </>
+
 
 
 

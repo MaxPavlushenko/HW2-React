@@ -6,5 +6,11 @@ border-radius: 50%;
 background-image: url(../../../../assets/images/header/Calling.svg);
 background-repeat: no-repeat;
 background-position: 50% 50%;
-margin-left: 100px;
+margin-left: 350px;
+
+}
+@media (max-width:660px){
+    .phone{
+        display: none;
+    }
 }

@@ -1,10 +1,11 @@
 .container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-evenly;
+    max-width: 100%;
     height: 100%;
     background-color: #403C3B;
     align-items: center;
+
 }
 
 .basket {
@@ -30,4 +31,31 @@
     color: #fff;
     border-left: 2px solid #618967;
     padding-left: 19px;
+}
+
+.buttonBasket {
+    width: 209px;
+    height: 51px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.basketOrder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 763px;
+    height: 105px;
+    left: 339px;
+    top: 1025px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    
+
 }

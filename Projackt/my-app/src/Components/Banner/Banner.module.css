@@ -1,5 +1,7 @@
-.banner{
+.banner {
+    display: flex;
     max-width: 1440px;
-    height: 484px;
+    min-height: 484px;
     background-image: url(../../assets/images/banner/banner.png);
+
 }
