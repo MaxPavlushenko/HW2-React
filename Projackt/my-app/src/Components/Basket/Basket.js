@@ -14,7 +14,7 @@ export const Basket = () => {
                 <span className={style.basketCategory}>КОРЗИНА</span>
             </div >
             <div className={style.basketOrder}>
-                <button className={style.buttonBasket}>Оформить заказ</button>
+                <Link to='/checkout' button className={style.buttonBasket}>Оформить заказ</Link>
             </div>
     
         </div>

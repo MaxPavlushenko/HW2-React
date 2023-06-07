@@ -1,0 +1,356 @@
+.container {
+    max-width: 1440px;
+    min-height: 2000px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    padding-left: 330px;
+    min-height: 74px;
+    justify-content: space-between;
+
+
+}
+
+.checkoutReturn {
+    text-decoration: none;
+    color: #fff;
+}
+
+.basketCat {
+    font-family: Gilroy;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #fff;
+    border-left: 2px solid #618967;
+    padding-left: 19px;
+}
+
+.contacts {
+    max-width: 800px;
+    min-height: 200px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    margin-left: 321px;
+    margin-top: 140px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactsName {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+
+.namePhone {
+    display: flex;
+    margin-top: 45px;
+
+}
+
+.name {
+    width: 363px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    border: 1px solid #FFFFFF1A;
+    margin-left: 20px;
+
+}
+
+.phone {
+    width: 363px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    border: 1px solid #FFFFFF1A;
+    margin-left: 20px;
+
+}
+
+input::placeholder {
+    color: #FFF;
+    padding-left: 40px;
+
+}
+
+.delivery {
+    width: 800px;
+    height: 456px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    margin-left: 321px;
+    margin-top: 20px;
+
+}
+
+.title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    padding-top: 15px;
+}
+
+.deliveryChoice {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+
+
+}
+
+.deliveryD {
+    width: 181px;
+    height: 60px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.deliveryPickup {
+    width: 181px;
+    height: 60px;
+    border: 1px solid #618967;
+    border-radius: 0px 10px 10px 0px;
+    background: #494544;
+
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+    margin-left: 25px;
+}
+
+.time {
+    margin-left: 25px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFF;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.deliveryStreet {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.street {
+    width: 413px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+
+}
+
+.houseNumber {
+    width: 173px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    margin-left: 15px;
+
+}
+
+.home {
+    margin-top: 15px;
+}
+
+.office {
+    width: 225px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    margin-left: 25px;
+}
+
+.podbezd {
+    width: 173px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    margin-left: 10px;
+}
+
+.number {
+    width: 173px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    margin-left: 15px;
+}
+
+.comment {
+    margin-top: 15px;
+}
+
+.commentText {
+    width: 609px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+    margin-left: 25px;
+}
+
+.payCash {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pay {
+    width: 800px;
+    height: 249px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    margin-left: 321px;
+    margin-top: 20px;
+
+}
+
+.paymentСhoice {
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+
+.cash {
+    width: 184px;
+    height: 59px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card {
+    width: 184px;
+    height: 59px;
+    border: 1px solid #72A479;
+    background: #494544;
+
+}
+
+.paymentOnline {
+    width: 184px;
+    height: 59px;
+    border: 1px solid #72A479;
+    background: #494544;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.change {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.changeAs {
+    width: 173px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+}
+
+.whenDeliver {
+    width: 800px;
+    height: 370px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    margin-left: 321px;
+    margin-top: 20px;
+}
+
+.nearFuture {
+    width: 184px;
+    height: 59px;
+    background: #494544;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #72A479;
+}
+
+.inTime {
+    width: 184px;
+    height: 59px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.deliveryTime {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.specify {
+    width: 185px;
+    height: 60px;
+    background: #494544;
+    margin-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+}
+
+.when {
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.numberPersons {
+    width: 263px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: #494544;
+}
+.quantity{
+    margin-left: 25px;
+    margin-top: 20px;
+}

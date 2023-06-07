@@ -7,6 +7,7 @@ import { Basket } from '../Basket/Basket';
 import { About } from '../../pages/about/about';
 import { Delivery } from '../../pages/delivery/delivery';
 import { Sale } from '../../pages/sale/sale';
+import { Checkout } from '../../pages/checkout/checkout';
 
 
 
@@ -29,6 +30,7 @@ export const Main = () => {
                 <Route path='/about' element ={<About/>}/>
                 <Route path='/delivery' element={<Delivery/>}/>
                 <Route path='/sale' element={<Sale/>}/>
+                <Route path='/checkout' element={<Checkout/>}/>
             </Routes>
 
             
